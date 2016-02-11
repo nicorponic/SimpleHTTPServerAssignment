@@ -26,7 +26,7 @@ import java.util.concurrent.LinkedBlockingQueue;
         for (int i = 0; ; i++) {
             Integer simpletask = i;
             
-            queue.take(simpletask);
+            queue.take(simpetask);
             System.out.println("P\tRetrieving simple task: " + simpletask);
         }
     }
